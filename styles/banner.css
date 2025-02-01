@@ -1,0 +1,40 @@
+.banner__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: 800px;
+    padding: 0.5em 1em;
+    margin: 1em 0.7em;
+    border-radius: 10px;    
+}
+
+.banner__texto {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.banner__foto {
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 1em;
+}
+
+.banner__informacoes {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin: 1em 1em;
+    border-radius: 10px;
+}
+
+.banner__informacoes__titulo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner__informacoes__texto {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 1em;
+}

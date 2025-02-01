@@ -1,0 +1,22 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/rodape.css");
+
+:root {
+    --cor-fundo: linear-gradient(to right, #302E2C, #3E372E);
+    --cor-fundo-claro: #554F39;
+    --cor-amarela: #FFB039;
+    --cor-fonte-principal: #FFFFFF;
+    --cor-fonte-secundaria: #000000;
+    --cor-fonte-03: #
+    --cor-fundo-banner: #818181;
+    --fonte-principal: "Roboto", serif;
+}
+
+body {
+    background-image: var(--cor-fundo);
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

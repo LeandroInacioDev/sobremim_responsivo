@@ -1,0 +1,17 @@
+.hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--cor-fundo-claro);
+    padding: 0.5em 1em;
+}
+
+.rodape__link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cor-fonte-principal);
+    
+
+}
