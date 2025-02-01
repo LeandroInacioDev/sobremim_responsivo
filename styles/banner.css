@@ -24,7 +24,7 @@
 .banner__informacoes {
     background: rgba(0, 0, 0, 0.2);
     padding: 1em;
-    margin: 1em 1em;
+    margin: 1em;
     border-radius: 10px;
 }
 
@@ -37,4 +37,20 @@
     font-size: 14px;
     font-weight: 200;
     margin-top: 1em;
+}
+
+.banner_links {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 1em;
+}
+
+.banner__links__texto {
+    color: var(--cor-fonte-principal);
+    font-weight: 300;
 }
