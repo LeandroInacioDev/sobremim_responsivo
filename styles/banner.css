@@ -39,7 +39,7 @@
     margin-top: 1em;
 }
 
-.banner_links {
+.banner__links {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -50,7 +50,18 @@
     margin: 1em;
 }
 
+.banner__links__imagem {
+    width: 30px;
+}
+
 .banner__links__texto {
     color: var(--cor-fonte-principal);
     font-weight: 300;
+}
+
+.banner__texto__trabalho {
+    color: var(--cor-fonte-principal);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 1em;
 }

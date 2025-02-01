@@ -60,6 +60,7 @@
     width: 50vw;
     padding: 0.8em 0.5em;
     border-top: 1px solid var(--cor-amarela);
+    text-decoration: none;
 }
 
 .lista-menu__item:hover {
