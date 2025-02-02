@@ -4,7 +4,8 @@
 
 .rodape {
     background-color: var(--cor-fundo-claro);
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
+    text-align: center;
 }
 
 .rodape__link {

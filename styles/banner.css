@@ -15,6 +15,22 @@
     font-weight: 800px;
 }
 
+.banner__about-me {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1em 0;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-amarela);
+}
+
+.banner__imagem {
+    width: 50%;
+    border-radius: 200px;
+    margin: auto;
+    display: block;
+}
+
 .banner__foto {
     width: 200px;
     border-radius: 20px;
