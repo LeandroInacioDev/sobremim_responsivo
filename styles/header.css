@@ -78,8 +78,6 @@
     display: none;
 }
 
-
-
 .usuario {
     display: flex;
     justify-content: space-between;
@@ -100,4 +98,38 @@
 .usuario__bem-vindo {
     font-size: 14px;
     font-weight: 200;
+}
+
+.cabecalho-1024px {
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+.container {
+    display: none;
+}
+
+.cabecalho-1024px {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu__item-1024px {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    width: 20vw;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+}
+
+
+
 }

@@ -15,20 +15,10 @@
     font-weight: 800px;
 }
 
-.banner__about-me {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 1em 0;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-amarela);
-}
-
 .banner__imagem {
-    width: 50%;
-    border-radius: 200px;
-    margin: auto;
-    display: block;
+    width: 378px;
+    border-radius: 20px;
+    margin: 0 1em;
 }
 
 .banner__foto {
@@ -80,4 +70,111 @@
     font-weight: 300;
     font-size: 16px;
     padding: 1em;
+}
+
+.banner-1024px {
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+.banner {
+    display: none;
+}
+    
+.banner-1024px {
+    display: block;
+}
+
+.banner-1024px__informacoes {
+    display: flex;
+    gap: 2em;
+}
+    
+.banner-1024px__informacoes__dados {
+    display: flex;
+    flex-direction: column;
+}
+    
+.banner__imagem-1024px {
+    width: 364px;
+    height: 455px;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+    
+.banner__imagem-1024px__aboutme {
+    width: 600px;
+    height: 457px;
+    border-radius: 10px;
+    margin-top: 1em;    
+}
+
+.banner__informacoes {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}    
+
+.banner__links {
+    padding: 0.5em;
+    margin: 1em 0;
+}
+
+.banner__links__texto {
+    font-size: 14px;
+    padding: 0 0.5em;
+}
+
+.banner-1024px__informacoes-1024px {
+    display: flex;
+    margin: 1em;
+}
+
+.banner__informacoes__jogos {
+    display: flex;
+    flex-direction: column;  
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+.banner-1024px__informacoes-1024px__jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+    gap: 1em;
+}
+
+.banner__links__jogos {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0m 0;
+    width: 270px;
+}
+
+.banner__foto__jogos{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.banner__informacoes__titulo__jogos {
+    font-size: 20px;
+}
+
+
+
+
+
+
 }
